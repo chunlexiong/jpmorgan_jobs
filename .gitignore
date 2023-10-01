@@ -1,1 +1,5 @@
-*.csv
+*.csv*
+*.pdf
+*.docx*
+*.ipynb_checkpoints
+*.DS_Store
