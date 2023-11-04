@@ -22,3 +22,8 @@ Task three asks the quantitative researcher to build a predictive model to predi
 
 - We should produce a function that can take in the properties of a loan and output the expected loss.
 - We can explore any technique ranging from a simple regression or a decision tree to something more advanced. We can also use multiple methods and provide a comparative analysis.
+
+# Task 4: Quantize FICO data to predict defaults
+From taks 3, we are familiar with the model to predict default probability and potential losses. The personal loans and risk team is using the model as a guide to loss provisions for the upcoming year. The team now wants to look at their mortgage book. They suspect that FICO scores will provide a good indication of how likely a customer is to default on their mortgage. The team wants to build a machine learning model that will predict the probability of default. The architecture they are using requires categorical data. As FICO ratings can take integer values in a large range, they will need to be mapped into buckets. They ask if we can find the best way of doing this to analyze the data.
+
+A FICO score is a standardized credit score created by the Fair Isaac Corporation (FICO) that quantifies the creditworthiness of a borrower to a value between 300 to 850, based on various factors. FICO scores are used in 90% of mortgage application decisions in the United States. The risk manager provides FICO scores for the borrowers in the bank’s portfolio and wants the quantitative researcher to construct a technique for predicting the PD (probability of default) for the borrowers using these scores. 
